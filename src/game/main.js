@@ -14,13 +14,9 @@ const config = {
     width: 375,
     height: 667,
     parent: 'game-container',
-    backgroundColor: '#028af8',
+    backgroundColor: '#00033',
     render: {
         antialias: true
-    },
-    scale: {
-        mode: Phaser.Scale.FIT,
-        autoCenter: Phaser.Scale.CENTER_BOTH
     },
     scene: [
         Boot,
