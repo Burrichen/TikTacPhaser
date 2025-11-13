@@ -37,7 +37,7 @@ export class Preloader extends Scene
         this.load.image('box', 'assets/box.png');
         this.load.image('timer', 'assets/timer.png');
         this.load.image('circle', 'assets/circle.png');        
-        this.load.image('cross', 'public/assets/cross.png');
+        this.load.image('cross', '/assets/cross.png');
     }
 
     create ()

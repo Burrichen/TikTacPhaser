@@ -31,13 +31,13 @@ export class MainMenu extends Scene
         const redButton =  this.add.image(103, 554, 'redstart');
         redButton.setInteractive();
         redButton.on('pointerdown', () => {
-            this.scene.start('RedTurn'); 
+            this.scene.start('Game', { startingPlayer: 'red' }); 
         });
 
         const greenButton = this.add.image(272, 554, 'greenstart');
         greenButton.setInteractive();
         greenButton.on('pointerdown', () => {
-            this.scene.start('GreenTurn');
+            this.scene.start('Game', { startingPlayer: 'green'});
         });
     }
     initGame ()
