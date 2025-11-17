@@ -30,7 +30,7 @@ You will need to have [Node.js](https://nodejs.org/) and its package manager, np
 
 1.  **Clone the repository to your local machine:**
     ```bash
-    git clone [https://github.com/your-username/tiktacphaser.git](https://github.com/Burrichen/TikTacPhaser)
+    git clone [https://github.com/Burrichen/TikTacPhaser]
     ```
 
 2.  **Navigate into the project directory:**
